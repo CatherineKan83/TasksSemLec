@@ -35,9 +35,9 @@ void FindSum(int[,] arr)
         {
             if(arr[i,j]>0)
             {
-                Pos = Pos + arr[i,j];            
+                Pos += arr[i,j];            
             }
-            else Neg = Neg + arr[i,j];
+            else Neg += arr[i,j];
         }
     }
     Console.WriteLine($"Сумма положительных чисел равна -> {Pos}.");
